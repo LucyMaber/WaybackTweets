@@ -1,5 +1,5 @@
 from .wayback import WaybackTweets
-from .parser import JsonParser, TwitterEmbed, WaybackTweetsParser, CommonCrawlTweetsParser
+from .parse import JsonParser, TwitterEmbed, WaybackTweetsParser, CommonCrawlTweetsParser
 
 __all__ = [
     "WaybackTweets",
