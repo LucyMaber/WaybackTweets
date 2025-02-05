@@ -6,7 +6,7 @@ import aiohttp
 import asyncio
 from typing import Any, AsyncGenerator, Dict, List, Optional, Tuple
 from rich import print as rprint
-from utils.utils import (
+from async_wayback_twitter.utils import (
     check_double_status,
     check_pattern_tweet,
     check_url_scheme,

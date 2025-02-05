@@ -1,7 +1,7 @@
 import asyncio
 
 from parse import WaybackTweetsParser
-from request import WaybackTweets
+from async_wayback_twitter.wayback import WaybackTweets
 
 USERNAME = "jk_rowling"
 
